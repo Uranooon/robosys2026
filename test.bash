@@ -1,5 +1,5 @@
 #!/bin/bash
-# SPDX-FileCopyrightText: 2026 自分の名前
+# SPDX-FileCopyrightText: 2026 Haruto Urano
 # SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
