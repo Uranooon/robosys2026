@@ -1,0 +1,17 @@
+name: timeconv test
+
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: ソースコードを取得
+        uses: actions/checkout@v4
+
+      - name: コンパイル
+        run: gcc -Wall -Wextra -o timeconv timeconv.c
+
+      - name: テスト実行
+        run: bash test-timeconv.bash
